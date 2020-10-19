@@ -3,7 +3,7 @@
 there are a original segmentation that contains airway mask and skeleton( bifurcation point).
 you could load this data in python using:
 
-        d = np.load('.\keypoints\data\PA000019.npz', allow_pickle=True)
+        d = np.load('.\PA000019.npz', allow_pickle=True)
         mask = d['isoMask']
         
         # get skeleton of the whole airway tree
