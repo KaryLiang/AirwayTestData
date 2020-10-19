@@ -2,6 +2,7 @@
 1. testData.7z package: 
 there are a original segmentation that contains airway mask and skeleton( bifurcation point).
 you could load this data in python using:
+
         d = np.load('.\keypoints\data\PA000019.npz', allow_pickle=True)
         # get airway mask
         mask = d['isoMask']
